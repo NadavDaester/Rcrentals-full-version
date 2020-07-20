@@ -1,0 +1,492 @@
+{
+  "car": [
+    {
+      "_id": "c101",
+      "owner": {
+        "_id": "u101",
+        "fullName": "Maor Bason",
+        "imgUrl": "url"
+      },
+      "location": {
+        "city": "tel aviv",
+        "lat": 54354,
+        "lng": 23423
+      },
+      "tags": [
+        "sport",
+        "vintage"
+      ],
+      "reviews": [
+        {
+          "id": "r101",
+          "txt": "Clean beautiful car , nice people , not much more you could ask for!",
+          "rating": 3,
+          "createdAt": 234533435,
+          "byUser": {
+            "_id": "u103",
+            "fullName": "nadav daester",
+            "imgUrl": "url"
+          }
+        },
+        {
+          "id": "r102",
+          "txt": "The car is comfortable for a family trip very clean and perfect condition my family was happy",
+          "rating": 5,
+          "createdAt": 34234324,
+          "byUser": "minimalUser"
+        },
+        {
+          "id": "r108",
+          "txt": "Thank you for clear and concise instructions love the car, Bluetooth, paddle shifters, and beautiful exhaust sound, this is the PERFECT car for israel ",
+          "rating": 3,
+          "createdAt": 43543543,
+          "byUser": "minimalUser"
+        }
+      ],
+      "desc": "the car has sunroof reach to 180 k/mh",
+      "features": {
+        "seatsCount": 4,
+        "doorsCount": 4,
+        "kpl": 12
+      },
+      "price": 423,
+      "condition": "new",
+      "model": "2020",
+      "vendor": {
+        "company": "audi",
+        "series": "s3"
+      },
+      "discount": {
+        "discountRate": 15,
+        "discountEnd": "1000*60*60*24"
+      },
+      "primaryImgUrl": "audi1",
+      "imgUrls": [
+        "audi2",
+        "audi3",
+        "audi4"
+      ]
+    },
+    {
+      "_id": "c102",
+      "owner": {
+        "_id": "u103",
+        "fullName": "nadav daester",
+        "imgUrl": "url"
+      },
+      "location": {
+        "city": "kiryat malachi",
+        "lat": 342343,
+        "lng": 45343
+      },
+      "tags": [
+        "luxury",
+        "vintage"
+      ],
+      "reviews": [
+        {
+          "id": "r104",
+          "txt": "These guys are amazing! Best rental experience of my life! Extremely accommodative when I needed to extend the trip and pickup and drop off was a breeze. Highly recommend . ",
+          "rating": 3,
+          "createdAt": 1585072468280,
+          "byUser": "minimalUser"
+        },
+        {
+          "id": "r105",
+          "txt": " Great car and great host! Would rent again in the future!!! ",
+          "rating": 5,
+          "createdAt": 1524072468280,
+          "byUser": "minimalUser"
+        }
+      ],
+      "desc": "the car has comfortable seats , big wheels",
+      "features": {
+        "seatsCount": 4,
+        "doorsCount": 4,
+        "kpl": 15
+      },
+      "price": 765,
+      "condition": "veteran",
+      "model": "2015",
+      "vendor": {
+        "company": "mazarati",
+        "series": "200"
+      },
+      "discount": {
+        "discountRate": 28,
+        "discountEnd": "1000*60*60*12"
+      },
+      "primaryImgUrl": "maserati1",
+      "imgUrls": [
+        "maserati2",
+        "maserati3",
+        "maserati4"
+      ]
+    },
+    {
+      "_id": "c103",
+      "owner": {
+        "_id": "u102",
+        "fullName": "adi peled",
+        "imgUrl": "url"
+      },
+      "location": {
+        "city": "Beer Sheva",
+        "lat": 423523,
+        "lng": 454643
+      },
+      "tags": [
+        "minivan",
+        "trucks"
+      ],
+      "reviews": [
+        {
+          "id": "r106",
+          "txt": "Very easy process responds quickly follow instructions and he's all good. I will use again. ",
+          "rating": 4,
+          "createdAt": 1595072460280,
+          "byUser": "minimalUser"
+        },
+        {
+          "id": "r105",
+          "txt": "The van was very clean and nice made our trip very relaxing. Manuel is quick in communication. I will def use his vehicles again. ",
+          "rating": 5,
+          "createdAt": 1595002468280,
+          "byUser": "minimalUser"
+        }
+      ],
+      "desc": "big car for long trips, have plenaty of room to carry items",
+      "features": {
+        "seatsCount": 6,
+        "doorsCount": 4,
+        "kpl": 22
+      },
+      "price": 323,
+      "condition": "veteran",
+      "model": "2012",
+      "vendor": {
+        "company": "mazarati",
+        "series": "500"
+      },
+      "discount": {
+        "discountRate": 45,
+        "discountEnd": "1000*60*60*36"
+      },
+      "primaryImgUrl": "maserati5",
+      "imgUrls": [
+        "maserati6",
+        "maserati7"
+      ]
+    },
+    {
+      "_id": "c104",
+      "owner": {
+        "_id": "u101",
+        "fullName": "Maor Bason",
+        "imgUrl": "url"
+      },
+      "location": {
+        "city": "tel aviv",
+        "lat": 54354,
+        "lng": 23423
+      },
+      "tags": [
+        "sport",
+        "exotic"
+      ],
+      "reviews": [
+        {
+          "id": "r107",
+          "txt": "Amazing Rental. Looking forward to doing this again!",
+          "rating": 4,
+          "createdAt": 1495072468280,
+          "byUser": "minimalUser"
+        },
+        {
+          "id": "r108",
+          "txt": " Awesome person to rent from. The instructions are very clear for pick up and drop off. Car was spotless and smelled good. Driving experience is amazing as well, beautiful sounding exhaust. A beautiful car that is a must rent! ",
+          "rating": 4,
+          "createdAt": 1590072468280,
+          "byUser": "minimalUser"
+        }
+      ],
+      "desc": "the car has sunroof reach to 180 k/mh",
+      "features": {
+        "seatsCount": 4,
+        "doorsCount": 4,
+        "kpl": 14
+      },
+      "price": 222,
+      "condition": "new",
+      "model": "2019",
+      "vendor": {
+        "company": "mazda",
+        "series": "200"
+      },
+      "discount": {
+        "discountRate": 15,
+        "discountEnd": "1000*60*60*48"
+      },
+      "primaryImgUrl": "mazda1",
+      "imgUrls": [
+        "mazda2",
+        "mazda3",
+        "mazda4"
+      ]
+    }
+  ],
+  "order": [
+    {
+      "pickupDate": "2020-07-15",
+      "daysCount": "1",
+      "carId": "c103",
+      "price": 323,
+      "owner": {
+        "_id": "u103",
+        "fullName": "nadav daester",
+        "imgUrl": "url"
+      },
+      "buyer": {
+        "email": "adi123@gmail.com",
+        "fullName": "adi peled",
+        "imgUrl": "url",
+        "_id": "u102"
+      },
+      "_id": 1
+    },
+    {
+      "pickupDate": "2020-08-06",
+      "daysCount": "3",
+      "carId": "c104",
+      "price": 666,
+      "owner": {
+        "_id": "u101",
+        "fullName": "Maor Bason",
+        "imgUrl": "url"
+      },
+      "buyer": {
+        "email": "nadav444@gmail.com",
+        "fullName": "nadav daester",
+        "imgUrl": "url",
+        "_id": "u103"
+      },
+      "_id": 2
+    }
+  ],
+  "user": [
+    {
+      "_id": "u101",
+      "fullName": "Maor Bason",
+      "password": "12345",
+      "email": "maor456@walla.com",
+      "isAdmin": false,
+      "imgUrl": "url",
+      "createdAt": 12312312312,
+      "orders": [],
+      "favCars": [
+        {
+          "_id": "c102",
+          "owner": {
+            "_id": "u103",
+            "fullName": "nadav daester",
+            "imgUrl": "url"
+          },
+          "location": {
+            "city": "kiryat malachi",
+            "lat": 342343,
+            "lng": 45343
+          },
+          "tags": [
+            "luxury",
+            "vintage"
+          ],
+          "reviews": [
+            {
+              "id": "r104",
+              "txt": "These guys are amazing! Best rental experience of my life! Extremely accommodative when I needed to extend the trip and pickup and drop off was a breeze. Highly recommend . ",
+              "rating": 3,
+              "createdAt": 1585072468280,
+              "byUser": "minimalUser"
+            },
+            {
+              "id": "r105",
+              "txt": " Great car and great host! Would rent again in the future!!! ",
+              "rating": 5,
+              "createdAt": 1524072468280,
+              "byUser": "minimalUser"
+            }
+          ],
+          "desc": "the car has comfortable seats , big wheels",
+          "features": {
+            "seatsCount": 4,
+            "doorsCount": 4,
+            "kpl": 15
+          },
+          "price": 765,
+          "condition": "veteran",
+          "model": "2015",
+          "vendor": {
+            "company": "mazarati",
+            "series": "200"
+          },
+          "discount": {
+            "discountRate": 28,
+            "discountEnd": "1000*60*60*12"
+          },
+          "primaryImgUrl": "maserati1",
+          "imgUrls": [
+            "maserati2",
+            "maserati3",
+            "maserati4"
+          ]
+        },
+        {
+          "_id": "c101",
+          "owner": {
+            "_id": "u101",
+            "fullName": "Maor Bason",
+            "imgUrl": "url"
+          },
+          "location": {
+            "city": "tel aviv",
+            "lat": 54354,
+            "lng": 23423
+          },
+          "tags": [
+            "sport",
+            "vintage"
+          ],
+          "reviews": [
+            {
+              "id": "r101",
+              "txt": "Clean beautiful car , nice people , not much more you could ask for!",
+              "rating": 3,
+              "createdAt": 234533435,
+              "byUser": {
+                "_id": "u103",
+                "fullName": "nadav daester",
+                "imgUrl": "url"
+              }
+            },
+            {
+              "id": "r102",
+              "txt": "The car is comfortable for a family trip very clean and perfect condition my family was happy",
+              "rating": 5,
+              "createdAt": 34234324,
+              "byUser": "minimalUser"
+            },
+            {
+              "id": "r108",
+              "txt": "Thank you for clear and concise instructions love the car, Bluetooth, paddle shifters, and beautiful exhaust sound, this is the PERFECT car for israel ",
+              "rating": 3,
+              "createdAt": 43543543,
+              "byUser": "minimalUser"
+            }
+          ],
+          "desc": "the car has sunroof reach to 180 k/mh",
+          "features": {
+            "seatsCount": 4,
+            "doorsCount": 4,
+            "kpl": 12
+          },
+          "price": 423,
+          "condition": "new",
+          "model": "2020",
+          "vendor": {
+            "company": "audi",
+            "series": "s3"
+          },
+          "discount": {
+            "discountRate": 15,
+            "discountEnd": "1000*60*60*24"
+          },
+          "primaryImgUrl": "audi1",
+          "imgUrls": [
+            "audi2",
+            "audi3",
+            "audi4"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": "u102",
+      "fullName": "adi peled",
+      "password": "54321",
+      "email": "adi123@gmail.com",
+      "isAdmin": true,
+      "imgUrl": "url",
+      "createdAt": 12312312312,
+      "orders": [],
+      "favCars": []
+    },
+    {
+      "_id": "u103",
+      "fullName": "nadav daester",
+      "password": "66542",
+      "email": "nadav444@gmail.com",
+      "isAdmin": true,
+      "imgUrl": "url",
+      "createdAt": 1123423423,
+      "orders": [],
+      "favCars": [
+        {
+          "_id": "c104",
+          "owner": {
+            "_id": "u101",
+            "fullName": "Maor Bason",
+            "imgUrl": "url"
+          },
+          "location": {
+            "city": "tel aviv",
+            "lat": 54354,
+            "lng": 23423
+          },
+          "tags": [
+            "sport",
+            "exotic"
+          ],
+          "reviews": [
+            {
+              "id": "r107",
+              "txt": "Amazing Rental. Looking forward to doing this again!",
+              "rating": 4,
+              "createdAt": 1495072468280,
+              "byUser": "minimalUser"
+            },
+            {
+              "id": "r108",
+              "txt": " Awesome person to rent from. The instructions are very clear for pick up and drop off. Car was spotless and smelled good. Driving experience is amazing as well, beautiful sounding exhaust. A beautiful car that is a must rent! ",
+              "rating": 4,
+              "createdAt": 1590072468280,
+              "byUser": "minimalUser"
+            }
+          ],
+          "desc": "the car has sunroof reach to 180 k/mh",
+          "features": {
+            "seatsCount": 4,
+            "doorsCount": 4,
+            "kpl": 14
+          },
+          "price": 222,
+          "condition": "new",
+          "model": "2019",
+          "vendor": {
+            "company": "mazda",
+            "series": "200"
+          },
+          "discount": {
+            "discountRate": 15,
+            "discountEnd": "1000*60*60*48"
+          },
+          "primaryImgUrl": "mazda1",
+          "imgUrls": [
+            "mazda2",
+            "mazda3",
+            "mazda4"
+          ]
+        }
+      ]
+    }
+  ]
+}
