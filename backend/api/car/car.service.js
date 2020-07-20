@@ -10,11 +10,18 @@ module.exports = {
 }
 
 async function query(filterBy) {
-    // const criteria = _buildCriteria(filterBy)
+    const criteria = _buildCriteria(filterBy)
     const collection = await dbService.getCollection('car')
     try {
-        const cars = await collection.find().toArray();
-        return cars
+        console.log(criteria);
+        if (criteria) {
+            console.log('in critera');
+            const cars = await collection.find().sort({ price: 1 })
+            return cars
+        } else {
+            const cars = await collection.find().toArray();
+            return cars
+        }
     } catch (err) {
         console.log('ERROR: cannot find cars')
         throw err;
@@ -71,10 +78,31 @@ async function add(car) {
 
 
 // function _buildCriteria(filterBy) {
-//     const criteria = {};
-//     if (filterBy.name) criteria.name = { $regex: new RegExp(filterBy.name, 'i') };
-//     if (filterBy.type !== '') criteria.type = filterBy.type;
-//     if (filterBy.inStock !== '') criteria.inStock = (filterBy.inStock + '' === 'true') ? true : false;
-//     console.log('car.service criteria:', criteria)
-//     return criteria;
+//     if(filterBy){
+//         const criteria = {};
+
+//     }else return null
+
 // }
+
+
+
+function _buildCriteria(filterBy) {
+    const criteria = {};
+    // if (filterBy.type !== '') criteria.type = filterBy.type;
+
+    // if (filterBy.model) criteria.model = { $regex: new RegExp(filterBy.model, 'i') };
+    // if (filterBy.location) criteria.name = { $regex: new RegExp(filterBy.location, 'i') };
+    // if (filterBy.available !== '') criteria.available = (filterBy.available + '' === 'true') ? true : false;
+
+    // if (filterBy.price) {
+    //     if (filterBy.price = 'asc') {
+    //         criteria.price = 1
+    //     } else {
+    //         criteria.price = -1
+    //     }
+
+    // }
+    // console.log('car.service criteria:', criteria)
+    return true;
+}
