@@ -9,7 +9,7 @@ async function getCar(req, res) {
 
 
 async function getCars(req, res) {
-    console.log('cars');
+    console.log('cars query:', req.query);
     try {
         const cars = await carService.query(req.query)
         res.send(cars)

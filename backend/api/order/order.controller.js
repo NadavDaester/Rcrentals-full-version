@@ -4,8 +4,11 @@ const orderService = require('./order.service')
 // TODO: needs error handling! try, catch
 
 async function getOrders(req, res) {
+
     try {
         const orders = await orderService.query(req.query)
+        console.log('orders:', orders);
+
         res.send(orders)
     } catch (err) {
         logger.error('Cannot get orders', err);

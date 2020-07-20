@@ -36,15 +36,6 @@ async function query() {
         //         $unwind: '$aboutUser'
         //     }
         // ]).toArray()
-
-        orders = orders.map(order => {
-            order.byUser = {_id: order.byUser._id, username: order.byUser.username}
-            order.aboutUser = {_id: order.aboutUser._id, username: order.aboutUser.username}
-            delete order.byUserId;
-            delete order.aboutUserId;
-            return order;
-        })
-
         return orders
     } catch (err) {
         console.log('ERROR: cannot find orders')
@@ -55,7 +46,7 @@ async function query() {
 async function remove(orderId) {
     const collection = await dbService.getCollection('order')
     try {
-        await collection.deleteOne({"_id":ObjectId(orderId)})
+        await collection.deleteOne({ "_id": ObjectId(orderId) })
     } catch (err) {
         console.log(`ERROR: cannot remove order ${orderId}`)
         throw err;
