@@ -82,7 +82,7 @@ async function add(car) {
 
 function _buildCriteria(filterBy) {
     const criteria = {};
-    if (filterBy.type !== '') criteria.type = filterBy.type;
+    // if (filterBy.type !== '') criteria.type = filterBy.type;
 
     // if (filterBy.model) criteria.model = { $regex: new RegExp(filterBy.model, 'i') };
     // if (filterBy.location) criteria.name = { $regex: new RegExp(filterBy.location, 'i') };
